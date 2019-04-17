@@ -15,7 +15,7 @@
   - If the HashCode of two objects are different, then the two objects are different;
   - If the code from the two objects are equal, it is highly possible that the objects are equal(might have collision);
   
-  ## How Hash test equality?
+## How Hash test equality?
 - If HashCode and Equals are implemented:
   - First hashcode. If they are equal, use equals to confirm;
   - Remember: String, Integer, Double, etc... already have equals and hashcode;
